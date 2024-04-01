@@ -8,7 +8,7 @@ const Home = () => {
     <main id="home">
       <div id="nav">
         <a href="/">
-          <img className="img" src={ME} />
+          <img className="img" src={ME} alt="sorry" />
         </a>
 
         <span className="pages" >

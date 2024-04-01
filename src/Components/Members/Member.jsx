@@ -16,14 +16,14 @@ const Member = () => {
       <h2>L<span className='und'>atest Member</span>s</h2>
 
       <div>
-        <img src={ME1} />
-        <img src={ME2} />
-        <img src={ME3} />
-        <img src={ME4} />
-        <img src={ME5} />
-        <img src={ME6} />
-        <img src={ME7} />
-        <img src={ME8} />
+        <img src={ME1} alt="sorry" />
+        <img src={ME2} alt="sorry" />
+        <img src={ME3} alt="sorry" />
+        <img src={ME4} alt="sorry" />
+        <img src={ME5} alt="sorry" />
+        <img src={ME6} alt="sorry" />
+        <img src={ME7} alt="sorry" />
+        <img src={ME8} alt="sorry" />
       </div>
     </div>
   );

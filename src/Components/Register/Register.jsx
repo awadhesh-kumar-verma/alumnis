@@ -17,7 +17,7 @@ const Register = () => {
         <div>
           <div className="div1">
             <h3>01</h3>
-            <img src={M1} />
+            <img src={M1} alt="sorry" />
           </div>
           <h3>Log In/Sign UP</h3>
           <p>
@@ -30,8 +30,8 @@ const Register = () => {
           <div className="div2">
             <h3>02</h3>
             <div className="img2">
-              <img src={M2} />
-              <img className="img1" src={M3} />
+              <img src={M2} alt="sorry" />
+              <img className="img1" src={M3} alt="sorry" />
             </div>
           </div>
           <h3>Click To Register</h3>
@@ -41,7 +41,7 @@ const Register = () => {
         <div>
           <div className="div3">
             <h3>03</h3>
-            <img src={M4} />
+            <img src={M4} alt="sorry" />
           </div>
           <h3>Fill The Forms</h3>
           <p>
@@ -52,7 +52,7 @@ const Register = () => {
         <div>
           <div className="div4">
             <h3>04</h3>
-            <img src={M5} />
+            <img src={M5} alt="sorry" />
           </div>
           <h3>Submit Form</h3>
           <p>
