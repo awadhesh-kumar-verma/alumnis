@@ -1,0 +1,78 @@
+main {
+    height: auto;
+    padding-top: 6rem;
+    overflow: hidden;
+    padding-bottom: 0;
+    margin-bottom: -130px;
+}
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../../assets/iert\ colleage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10px;
+    margin-top: -35px;
+}
+
+.img{
+    margin-left: 70px;
+    height: 100px;
+    width: 100px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: -50px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn1 {
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    padding: 0.30rem 1.2rem;
+    border-radius: 0.1rem;
+    margin-top: -50px;
+    margin-right: 70px;
+    background: none;
+}
+
+.btn2{
+    cursor: pointer;
+    background: #E8A902;
+    ;
+    color: white;
+    padding: 0.30rem 1.2rem;
+    border-radius: 0.1rem;
+    margin-left: 130px;
+    margin-bottom: 80px;
+}
+
+.wel1{
+    color: white;
+    line-height: 60px;
+    font-size: xxx-large;
+    font-weight: 600;
+    margin-left: 130px;
+    margin-top: 120px;
+}
+
+.wel2{
+    color: white;
+    line-height: 22px;
+    font-weight: 500;
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
