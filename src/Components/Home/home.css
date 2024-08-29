@@ -13,6 +13,17 @@ main {
     background-attachment: fixed;
 }
 
+.hme {
+    display: flex;
+    flex-direction: row;
+}
+
+.hme2 {
+    margin-left: -60%;
+    margin-top: -100px;
+    width: 100%;
+}
+
 #nav {
     width: 100%;
     display: flex;
@@ -23,6 +34,7 @@ main {
 }
 
 .img{
+    margin-top: 220px;
     margin-left: 70px;
     height: 100px;
     width: 100px;
@@ -60,12 +72,21 @@ main {
     margin-bottom: 80px;
 }
 
+.btn2:hover{
+    background-color: white;
+    color: black;
+    font-weight: 700;
+}
+
 .wel1{
     color: white;
     line-height: 60px;
     font-size: xxx-large;
     font-weight: 600;
     margin-left: 130px;
+
+    /* margin-right: -15%; */
+
     margin-top: 120px;
 }
 
@@ -74,5 +95,99 @@ main {
     line-height: 22px;
     font-weight: 500;
     margin-left: 130px;
+
+    /* margin-right: -15%; */
+
     margin-bottom: 15px;
+}
+
+
+@media screen and (max-width:700px) {
+   
+    .hme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hme2 {
+        /* margin-left: -60%;
+        margin-top: -100px; */
+        width: 100%;
+        margin-top: 80px;
+        margin-left: -10%;
+    }
+    .img{
+        margin-top: 220px;
+        margin-left: 70px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:500px) {
+   
+    .hme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hme2 {
+        /* margin-left: -60%;
+        margin-top: -100px; */
+        width: 100%;
+        margin-top: 80px;
+        margin-left: -15%;
+    }
+    .img{
+        margin-top: 220px;
+        margin-left: 70px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+   
+    .wel1{
+    
+        margin-right: -15%;
+    }
+    
+    .wel2{
+    
+        margin-right: -15%;
+    }
+    
+}
+
+
+@media screen and (max-width:425px) {
+   
+    .hme {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hme2 {
+        /* margin-left: -60%;
+        margin-top: -100px; */
+        width: 100%;
+        margin-top: 40px;
+        margin-left: -23%;
+    }
+    .img{
+        margin-top: 130px;
+        margin-left: 40px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .hme2 {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: -28%;
+    }
 }

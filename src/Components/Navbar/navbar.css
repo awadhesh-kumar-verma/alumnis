@@ -1,0 +1,282 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;500;600&family=Titillium+Web:wght@300;400;700&display=swap'); */
+
+:root{
+    --mainColor: #f2f2f2;
+    --mainColorLight: #5767aa;
+    --secondaryColor: #DB2B39;
+    --textColor: #eee;
+}
+
+header navi2{
+    display: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 3.4rem;
+    background-color: white;
+    border-bottom: 1.8px solid #dfe1e2;
+    color: var(--textColor);
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header h3{
+    /* font-family: Comic sans MS; */
+    font-weight: 600;
+    color: black;
+    color: rgb(155, 17, 17);
+}
+
+
+navi, navi2{
+    margin-bottom: 9px;
+}
+
+
+navi a{
+    font-weight: 600;
+    margin: 0 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+navi a:hover{
+    /* color: var(--color-bg-variant); */
+    color: rgb(155, 17, 17);
+}
+
+navi2 a{
+    font-weight: 600;
+    margin: 0 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+navi2 a:hover{
+    color: var(--color-bg-variant);
+}
+
+.deco:hover{
+    text-decoration: underline;
+}
+
+header .navi-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1127px){
+    navi a{
+        margin: 0 1rem;
+    }
+
+    navi2 a{
+        margin: 0 1rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header .navi-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header h3{
+        font-size: 25px;
+        color: rgb(155, 17, 17);
+    }
+
+    navi a{
+        margin: 0 2rem;
+    }
+
+    navi2 a{
+        margin: 0 2rem;
+    }
+
+    header navi{
+        display: none;
+    }
+
+    header navi2{
+        display: initial;
+    }
+
+    header navi2 {
+        position: fixed;
+        top: 60px;
+        right: 0;
+        height: 90%; 
+        width: 100%;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 100;
+    }
+
+    header navi2 div{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .er1{
+        width: 100%;
+        height: 100%;
+    }
+    .er2{
+        background-color: white;
+        width: 50%;
+        width: 400px;
+        height: 540px;
+        padding-bottom: -10px;
+        border-bottom-left-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 2.6rem;
+    }
+
+    header .responsive_nav{
+        transform: none;
+    }
+
+    navi .navi-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    navi2 .navi-close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    navi a{
+        font-size: 1.2rem;
+    }
+
+    navi2 a{
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    header {
+        background-color: white;
+        height: 50px;
+    }
+
+    header navi {
+        top: 50px;
+        height: 550px;
+        width: 180px;
+        border-bottom-left-radius: 60px;
+        gap: 2rem;
+    }
+
+    header navi2 {
+        top: 50px;
+    }
+
+    .er2{
+        background-color: white;
+        width: 320px;
+        height: 440px;
+        padding-bottom: -10px;
+        border-bottom-left-radius: 60px;
+        gap: 2rem;
+    }
+
+    navi a{
+        font-size: 1rem;
+    }
+
+    navi2 a{
+        font-size: 1rem;
+    }
+
+    header .navi-btn{
+        padding: 5px;
+        font-size: 1.1rem;
+    }
+
+    header h3{
+        font-weight: 600;
+        font-size: 20px;
+        margin-left: 10px;
+        color: black;
+    }
+
+}
+
+
+@media only screen and (max-width: 450px){
+    header {
+        height: 45px;
+    }
+
+    header navi {
+        top: 45px;
+        padding-top: 90px;
+        height: 400px;
+        width: 160px;
+        padding-bottom: 80px;
+        border-bottom-left-radius: 60px;
+        gap: 2rem;
+    }
+
+    header navi2 {
+        top: 45px;
+    }
+
+    .er2{
+        background-color: white;
+        width: 280px;
+        height: 370px;
+        padding-bottom: -10px;
+        border-bottom-left-radius: 60px;
+        gap: 1.7rem;
+    }
+
+    navi a{
+        font-size: 0.8rem;
+    }
+
+    navi2 a{
+        font-size: 0.8rem;
+    }
+
+    header .navi-btn{
+        padding: 5px;
+        font-size: 0.9rem;
+    }
+
+    header h3{
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 1px;
+        color: black;
+    }
+
+}

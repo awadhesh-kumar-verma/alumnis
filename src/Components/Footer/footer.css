@@ -20,6 +20,12 @@
     font-weight: 600;
 }
 
+.footer2 div{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
 .footer2 div p{
     font-size: 14px;
     font-weight: 500;
@@ -38,7 +44,7 @@
 
 .right{
     color: rgb(221, 214, 214);
-    margin-left: 45%;
+    margin-left: 22rem;
 }
 
 
@@ -73,5 +79,47 @@
         position: absolute;
         top: 23px;
         left: 38%;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .right {
+        margin-left: 12rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .right {
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .right {
+        margin-left: 8rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .right {
+        margin-left: 7rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .right {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .right {
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .right {
+        margin-left: 4rem;
     }
 }
