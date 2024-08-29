@@ -6,7 +6,6 @@ import { AiOutlineHome } from 'react-icons/ai';
 import { BiUser } from 'react-icons/bi';
 import { BiBook } from 'react-icons/bi';
 import { PiProjectorScreenChartLight } from 'react-icons/pi';
-import { LiaCertificateSolid } from 'react-icons/lia';
 import { BiMessageSquareDetail } from 'react-icons/bi';
 
 import "./navbar.css";
