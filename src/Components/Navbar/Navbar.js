@@ -50,7 +50,6 @@ function Navbar() {
             </button>
 
         </header>
-
     );
 }
 
